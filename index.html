@@ -1,0 +1,158 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="css/styles.css">
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/white.css">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+	</head>
+	<body>
+	<header>
+      <div class="header">
+        <span><a href="#" class="website-title">Visualizing Flu Epidemic</a></span>
+        <div class="jump-links">
+        	<div class="dropdown link">
+    			<button class="dropbtn">References 
+      				<i class="fa fa-caret-down"></i>
+    			</button>
+    			<div class="dropdown-content">
+      				<a href="https://www.vox.com/2018/1/12/16882622/flu-season-epidemic-prevention-vaccine" target="_blank">Vox Article</a>
+      				<a href="https://www.cdc.gov/flu/about/season/flu-season-2017-2018.htm" target="_blank">CDC Season '18</a>
+      				<a href="https://www.cdc.gov/media/releases/2018/t0112-widespread-flu-activity.html" target="_blank">CDC Flu Activity</a>
+    			</div>
+  			</div>
+  			<div class="dropdown link">
+    			<button class="dropbtn">Datasets 
+      				<i class="fa fa-caret-down"></i>
+    			</button>
+    			<div class="dropdown-content">
+      				<a href="https://gis.cdc.gov/grasp/fluview/fluportaldashboard.html" target="_blank">Spread Data</a>
+      				<a href="https://gis.cdc.gov/grasp/fluview/FluHospChars.html" target="_blank">Type Data</a>
+    			</div>
+  			</div>  
+        </div>
+      </div>
+    </header>
+		
+		<div class="reveal">		
+			<div class="slides">
+				
+				<section id="front">
+					<h1>Understanding the 2017-18 Flu Epidemic</h1>
+					<div><strong>Team Members:</strong></div>
+					<div>Andrew Mamroth, Shan He</div>
+					<div>Stanley Opara, Yubo Zhang</div>
+				</section>
+
+				<section id="introduction">
+  		 		  <div class="container">
+				  <div class="row">
+				    <div class="col-sm-4">
+				    	<p>In the year of 2017-2018, nearly 12,000 people have been hospitalized with confirmed cases of flu, an increase of 3,000 in just one week, according to the Centers for Disease Control and Prevention (CDC). If you're not sick, there's a good chance some of your friends, family members, or colleagues are.
+  				      	</p>
+  				      	<p> CDC monitors certain key flu indicators (for example, outpatient visits of influenza-like illness (ILI), the results of laboratory testing and reports of flu hospitalizations and deaths). This season, ILI went above baseline in late November and remained elevated through February 2018. 
+  				     	</p>
+				    </div>
+				    <div class="col-sm-8">
+				    <iframe src="https://public.tableau.com/views/Slide_1a/Slide1?:showVizHome=no&:embed=true&:toolbar=no"
+					width="1000" height="450"></iframe>  
+				    </div>
+				  </div>
+					</div>
+				</section>
+
+				<section id="geographic">
+					<div class="container">
+				  		<div class="row">
+				  			<div class="col-sm-4">
+								<h1>Geographic Pattern</h1>
+								<p>The CDC stated that as of January, every part of the continental U.S. showed widespread flu activity in this flu season. Comparing 2017-18 to the past, although the geographical pattern seems similar, the magnitude of flu spread is much higher.
+								</p>
+							</div>
+							<div  class="col-sm-8">
+				    			<iframe src="https://public.tableau.com/views/Slide_2small/Slide2?:showVizHome=no&:embed=true&:toolbar=no" width="1000" height="700"></iframe>  
+				    		</div>
+				    	</div>
+				    </div>
+				</section>
+				
+				<section id="transition">
+					<h1>So Why is 2017-2018 Season is Bad?</h1>
+				</section>
+				
+				<section id="hospitalization">
+					<div class="container">
+				  		<div class="row">
+				  			<div class="col-sm-4">					
+				            	<p>Overall hospitalizations are significantly higher than what officials have normally seen this timeof year since CDC began using this tracking system in 2010. Typically, flu epidemics quickly spread among young and elder patients due to their weaker immune system.
+								</p>
+								<p>Many suspect that 2017-18 epidemic's severity is due to the age group that are being affected. Although we do see a high percentage of elderly patients, this is nothing new compared to thepast years.
+								</p>
+							</div>
+							<div  class="col-sm-8">							
+								<iframe src="https://public.tableau.com/views/Slide_4small/Slide4?:showVizHome=no&:embed=true&:toolbar=no" width="1000" height="500"></iframe>  
+							</div>
+				    	</div>
+				    </div>
+				</section>
+				
+				<section id="conditions">
+					<div class="container">
+				  		<div class="row">
+				  			<div class="col-sm-4">					
+								<p>People with chronic conditions like cardiovascular disease, metabolic disease, or asthma are typically affected the most. Catching a flu could exacerbate existing conditions, particularly among older adults, which can lead to complications and death.
+								</p>
+								<p>But again, looking at the proportion of the recorded underlying medical conditions by CDC, we don't see anything too special about 2017-18 either.
+								</p>	
+							</div>
+							<div  class="col-sm-8">									
+				    			<iframe src="https://public.tableau.com/views/Slide_5small/Slide5?:showVizHome=no&:embed=true&:toolbar=no" width="1200" height="650"></iframe>  
+				    		</div>
+				    	</div>
+				    </div>
+				</section>
+				
+				<section id="transition">
+				<h1>So Why is 2017-2018 Season is Bad?</h1>
+				</section>
+				
+				<section id="strains">
+				  <div class="container">
+				  	<div class="row">
+				    	<div class="col-sm-4">
+ 				      		<p>There are four species of influenza viruses - A, B, C, and D - and seasonal flu is caused by influenza A and B. Every year, different strains of these viruses circulate. Although most look the same as denoted by the chart.
+  				      		</p>
+				    	</div>
+				    	<div class="col-sm-8">
+				    		<iframe src="https://public.tableau.com/views/Slide_6a/Slide6?:showVizHome=no&:embed=true&:toolbar=no" width="870" height="600"></iframe>  
+				    	</div>
+				  	</div>
+				  </div>
+				</section>
+				
+				<section id="cases">
+				  	<div class="container">
+				  		<div class="row">
+				    		<div class="col-sm-4">
+				  				<p>Among all the similarities, we seem to find our answer - the predominant strain this season is the nastiest, H3N2, which causes the worst outbreaks of the two influenza A viruses and two types of influenza B viruses that circulate among people. Seasons when H3N2 strain dominates are associated with more hospitalizations, more deaths and more illnesses. In general, flu vaccines tend to work better against influenza B and influenza A (H1N1) viruses and offer lower protection against influenza A (H3N2) viruses.
+				    			</p>
+				    		</div>
+				    		<div class="col-sm-8">
+				    			<iframe src="https://public.tableau.com/views/Slide_7small/Slide7?:showVizHome=no&:embed=true&:toolbar=no" width="1000" height="500"></iframe>  
+				    		</div>
+				  		</div>
+					</div>
+				</section>
+
+				<section id="back">
+					<h1>Thank you!</h1>
+				</section>
+
+			</div>
+		</div>
+		<script src="js/reveal.js"></script>
+		<script>Reveal.initialize();</script>
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+	</body>
+</html>

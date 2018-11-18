@@ -61,17 +61,33 @@
 					</div>
 				</section>			
 				
-				
-				
-				
-				<section id="introduction">
+				<section id="What is Our Plan ?">
   		 		  <div class="container">
 				  <div class="row">
 				    <div class="col-sm-4">
-				    	<p>In the year of 2017-2018, nearly 12,000 people have been hospitalized with confirmed cases of flu, an increase of 3,000 in just one week, according to the Centers for Disease Control and Prevention (CDC). If you're not sick, there's a good chance some of your friends, family members, or colleagues are.
-  				      	</p>
-  				      	<p> CDC monitors certain key flu indicators (for example, outpatient visits of influenza-like illness (ILI), the results of laboratory testing and reports of flu hospitalizations and deaths). This season, ILI went above baseline in late November and remained elevated through February 2018. 
+				    	<p>First, clean, analyze reviews to find important topics. This includes unsupervised methods for automatic topic clustering, and keyword detection.
+					</p>
+  				      	<p>Second, automatically detect emerging issues with new releases by using Google API to download reviews.  
   				     	</p>
+					<p>And finally. Map emerging “topics” back to “notable” reviews that contain useful information.
+  				     	</p>
+				    </div>
+				    <div class="col-sm-8">
+				    </div>
+				  </div>
+					</div>
+				</section>				
+				
+				<section id="transition">
+					<h1>Latent Dirichlet Allocation (LDA) Method</h1>
+				</section>
+				
+				<section id="LDA">
+  		 		  <div class="container">
+				  <div class="row">
+				    <div class="col-sm-4">
+  				      	<p>LDA is an unsupervised machine learning method that helps us discover hidden semantic structures, allows us to learn topic representations.
+					</p>
 				    </div>
 				    <div class="col-sm-8">
 				    <iframe src="lda.html"
@@ -80,12 +96,14 @@
 				  </div>
 					</div>
 				</section>
-
-				<section id="geographic">
+				<section id="transition">
+				<h1>Uniform Manifold Approximation and Projection (UMAP) Method</h1>
+				</section>
+				<section id="UMAP">
 					<div class="container">
 				  		<div class="row">
 				  			<div class="col-sm-4">
-								<h1>Geographic Pattern</h1>
+								<h1>UMAP</h1>
 								<p>The CDC stated that as of January, every part of the continental U.S. showed widespread flu activity in this flu season. Comparing 2017-18 to the past, although the geographical pattern seems similar, the magnitude of flu spread is much higher.
 								</p>
 							</div>
@@ -97,17 +115,15 @@
 				</section>
 				
 				<section id="transition">
-					<h1>Latent Dirichlet Allocation (LDA) Method</h1>
+				<h1>Word2vec Method</h1>
 				</section>
 				
-				<section id="hospitalization">
+				<section id="Word2vec">
 					<div class="container">
 				  		<div class="row">
 				  			<div class="col-sm-4">					
-				            	<p>Overall hospitalizations are significantly higher than what officials have normally seen this timeof year since CDC began using this tracking system in 2010. Typically, flu epidemics quickly spread among young and elder patients due to their weaker immune system.
-								</p>
-								<p>Many suspect that 2017-18 epidemic's severity is due to the age group that are being affected. Although we do see a high percentage of elderly patients, this is nothing new compared to thepast years.
-								</p>
+				            	<p>Word2Vec uses a two-layer neural net to arrive at vector representations (word embeddings) for every word in a corpus based on its context. Embeddings can carry semantic meaning, and semantically similar words will be “close” in vector space.
+						</p>
 							</div>
 							<div  class="col-sm-8">							
 								<iframe src="https://public.tableau.com/views/Slide_4small/Slide4?:showVizHome=no&:embed=true&:toolbar=no" width="1000" height="500"></iframe>  
@@ -116,14 +132,16 @@
 				    </div>
 				</section>
 				
-				<section id="conditions">
+				<section id="transition">
+				<h1>Ida2vec Method</h1>
+				</section>	
+				<section id="Ida2vec">
 					<div class="container">
 				  		<div class="row">
 				  			<div class="col-sm-4">					
-								<p>People with chronic conditions like cardiovascular disease, metabolic disease, or asthma are typically affected the most. Catching a flu could exacerbate existing conditions, particularly among older adults, which can lead to complications and death.
+								<p>lda2vec is an extension of word2vec and LDA. Word2vec models word-to-word relationships, while LDA models document-to-word relationships. Lda2vec model attempts to jointly learns word, document, and topic vectors.
 								</p>
-								<p>But again, looking at the proportion of the recorded underlying medical conditions by CDC, we don't see anything too special about 2017-18 either.
-								</p>	
+									
 							</div>
 							<div  class="col-sm-8">									
 				    			<iframe src="https://public.tableau.com/views/Slide_5small/Slide5?:showVizHome=no&:embed=true&:toolbar=no" width="1200" height="650"></iframe>  
@@ -132,22 +150,13 @@
 				    </div>
 				</section>
 
-				<section id="transition">
-				<h1>Uniform Manifold Approximation and Projection (UMAP) Method</h1>
-				</section>
-				<section id="transition">
-				<h1>Word2vec Method</h1>
-				</section>
-				<section id="transition">
-				<h1>Ida2vec Method</h1>
-				</section>	
 				
-				<section id="strains">
+				<section id="Next steps">
 				  <div class="container">
 				  	<div class="row">
 				    	<div class="col-sm-4">
- 				      		<p>There are four species of influenza viruses - A, B, C, and D - and seasonal flu is caused by influenza A and B. Every year, different strains of these viruses circulate. Although most look the same as denoted by the chart.
-  				      		</p>
+ 				      		<p>Next steps
+						</p>
 				    	</div>
 				    	<div class="col-sm-8">
 				    		<iframe src="https://public.tableau.com/views/Slide_6a/Slide6?:showVizHome=no&:embed=true&:toolbar=no" width="870" height="600"></iframe>  
@@ -156,19 +165,6 @@
 				  </div>
 				</section>
 				
-				<section id="cases">
-				  	<div class="container">
-				  		<div class="row">
-				    		<div class="col-sm-4">
-				  				<p>Among all the similarities, we seem to find our answer - the predominant strain this season is the nastiest, H3N2, which causes the worst outbreaks of the two influenza A viruses and two types of influenza B viruses that circulate among people. Seasons when H3N2 strain dominates are associated with more hospitalizations, more deaths and more illnesses. In general, flu vaccines tend to work better against influenza B and influenza A (H1N1) viruses and offer lower protection against influenza A (H3N2) viruses.
-				    			</p>
-				    		</div>
-				    		<div class="col-sm-8">
-				    			<iframe src="https://public.tableau.com/views/Slide_7small/Slide7?:showVizHome=no&:embed=true&:toolbar=no" width="1000" height="500"></iframe>  
-				    		</div>
-				  		</div>
-					</div>
-				</section>
 
 				<section id="back">
 					<h1>Thank you!</h1>

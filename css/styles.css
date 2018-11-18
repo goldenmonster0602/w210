@@ -204,3 +204,27 @@ slide {
 #back h1 {
   font-size: 2.0em;
 }
+
+.container-placer {
+    /* position on the page */
+    z-index: 0;
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    left: 0;
+}
+.embed-container {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+.embed-container > * {
+    display: block;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
